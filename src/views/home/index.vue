@@ -1,5 +1,5 @@
 <template>
   <div class="h-screen flex justify-center items-center">
-    <img class="h-20" src="@/assets/logo.svg" />
+    <t-button>按钮</t-button>
   </div>
 </template>
