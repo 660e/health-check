@@ -13,6 +13,7 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TButton: typeof import('tdesign-vue-next')['Button']
+    TIcon: typeof import('tdesign-vue-next')['Icon']
     TTag: typeof import('tdesign-vue-next')['Tag']
   }
 }
