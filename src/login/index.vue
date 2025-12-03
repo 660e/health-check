@@ -23,7 +23,11 @@ const roles = [
         <div class="pt-2">请选择您的角色登录</div>
       </div>
       <div class="flex gap-4 p-8 rounded-bl-xl rounded-br-xl bg-white">
-        <div v-for="role in roles" class="flex-1 p-4 space-y-2 text-center rounded-lg border-2 border-neutral-200" :key="role.name">
+        <div
+          v-for="role in roles"
+          class="flex-1 p-4 space-y-2 text-center cursor-pointer rounded-lg border-2 duration-300 border-neutral-200 bg-neutral-50 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-200"
+          :key="role.name"
+        >
           <t-icon :name="role.icon" class="text-5xl mb-4" />
           <div class="font-bold">{{ role.name }}</div>
           <div class="text-sm text-neutral-500">{{ role.description }}</div>
